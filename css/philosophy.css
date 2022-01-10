@@ -1,0 +1,88 @@
+/*全ページ共通タイトル部分
+
+.main {
+}
+
+*/
+
+.title_main {
+  color: black;
+  font-size: 48px;
+  margin: 12px 0;
+}
+.title_sub {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+/*全ページ共通タイトル部分　ここまで*/
+
+
+.philosophy_top {
+  background-color: #e4e4e4;
+  margin: 60px 6vw;
+  padding: 60px 6vw;
+}
+
+
+.philosophy_top_main,
+.philosophy_top_sentence {
+  color: white;
+  margin: 80px auto;
+  padding: 0 40px;
+}
+
+.philosophy_top_main {
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px #666666;
+  line-height: 60px;
+  margin-bottom: 60px;
+}
+.philosophy_top_sentence {
+  font-size: 26px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #666666;
+  line-height: 40px;
+}
+
+
+.main_content {
+  color: #555555;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 60px 6vw;
+}
+
+.philosophy_content {
+  background-color: white;
+  box-shadow:5px 5px 10px;
+  border:1px solid #cccccc;
+  margin: 50px auto;
+  padding: 60px 6vw;
+}
+
+.philosophy_content_title {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px #666666;
+  line-height: 50px;
+  margin: 0 auto 20px;
+}
+
+
+.philosophy_content_sentence {
+  color: #666666;
+  font-size: 22px;
+}
+
+
+.sentence_large {
+  color: #666666;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 50px;
+}

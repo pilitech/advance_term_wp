@@ -1,0 +1,155 @@
+/*全ページ共通タイトル部分*/
+
+.main {
+  margin: 60px 6vw;
+
+}
+
+
+.title_main {
+  color: black;
+  font-size: 48px;
+  margin: 12px 0;
+}
+.title_sub {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+/*全ページ共通タイトル部分　ここまで*/
+
+
+.recruit_top {
+  background-color: #e4e4e4;
+  padding: 60px 6vw;
+}
+
+.recruit_top_main,
+.recruit_top_sentence {
+  color: white;
+  margin: 80px auto;
+  padding: 0 40px;
+}
+
+.recruit_top_main {
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px #666666;
+  line-height: 60px;
+  margin-bottom: 60px;
+}
+.recruit_top_sentence {
+  font-size: 26px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #666666;
+  line-height: 40px;
+}
+
+
+.recruit_content {
+  margin: 60px auto;
+}
+.recruit_img img{
+  width: 100%;
+}
+.recruit_content_colunm {
+  display: flex;
+  flex-direction: column;
+  margin: -700px auto 300px;
+  padding: 0 100px;
+}
+.recruit_content_title {
+  font-size: 70px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.555);
+  text-shadow: 1px -1px 1px rgb(255, 255, 255),
+      2px 2px 2px #000000,
+      1px 1px 1px #fff,
+      1px -1px 1px #fff,
+      -1px 1px 1px #fff,
+      -1px -1px 1px #fff,
+      0 0 22px #fff;
+  line-height: 100px;
+  margin-bottom: 60px;
+}
+.recruit_content_title_sub {
+  font-size: 56px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.555);
+  text-shadow: 1px -1px 1px rgb(255, 255, 255), 2px 2px 2px #000000;
+  line-height: 70px;
+  margin-bottom: 100px;
+}
+.recruit_content_sentence {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 36px;
+}
+
+
+.main_content {
+  background-color: #e4e4e4;
+  color: #555555;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 60px 6vw;
+}
+.main_content_title {
+  color: black;
+  font-size: 46px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px #666666;
+  line-height: 60px;
+  margin: 30px auto 80px;
+}
+
+.description {
+  background-color: #ffffff;
+  padding: 60px 6vw;
+  margin: 50px auto;
+}
+
+.description_title {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px #666666;
+  line-height: 60px;
+}
+
+.description_title_sub {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 50px;
+  margin: 30px;
+}
+
+table {
+  width: 90%;
+  margin: 60px auto;
+  border-collapse: collapse;
+}
+table th,
+table td {
+  color: #555555;
+  border: 1px solid #999999;
+  border-right: none;
+  border-left: none;
+  padding: 30px;
+  text-align: left;
+}
+table th {
+  width: 20%;
+  font-size: 20px;
+  font-weight: bold;
+}
+table td {
+  font-size: 20px;
+  line-height: 30px;
+}

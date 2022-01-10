@@ -1,0 +1,122 @@
+@charset "utf-8";
+/*
+Theme Name: wp-Advance_Term
+Theme URL: テーマのサイトのURL
+Description: テーマの説明
+Author: テーマの作者
+Version: テーマのバージョン
+Tags: テーマの特徴を表すタグ（カンマ区切り/オプション）
+License: テーマのライセンス
+License URI: テーマのライセンスのURL
+*/
+
+
+/*全ページ共通タイトル部分*/
+.main {
+  background-color: #e4e4e4;
+  margin: 60px 6vw;
+  padding: 60px 6vw;
+}
+
+.title_main {
+  color: black;
+  font-size: 48px;
+  margin: 12px 0;
+}
+.title_sub {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+/*全ページ共通タイトル部分　ここまで*/
+
+.main_content {
+  color: #555555;
+  font-size: 20px;
+  line-height: 30px;
+  width: 70%;
+  margin: 60px auto 60px;
+  padding: 60px 6vw;
+}
+
+.form_guidance {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px auto;
+}
+.form_guidance_sub {
+  font-size: 24px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+
+.form {
+  margin: 20px auto;
+}
+
+
+.form-item {
+  padding: 24px 0;
+  width: 100%;
+  display: flex;
+}
+
+.form_border {
+  height: 1px;
+  border-style: solid ;
+  background:#888888;
+
+}
+
+.form-item-label {
+  width: 30%;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: right;
+  vertical-align: top;
+  margin-right: 100px;
+}
+
+.form-item-input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 10px;
+  height: 48px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.form-item-label-content {
+  flex-direction: column;
+  width: 100%;
+  line-height: 40px;
+}
+.form-item-radio {
+  width: 30px;
+  height: 30px;
+}
+
+.form-item-textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 10px;
+  height: 200px;
+  width: 100%;
+  font-size: 18px;
+}
+.form-btn {
+  border-radius: 6px;
+  margin: 50px auto 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  background: black;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}

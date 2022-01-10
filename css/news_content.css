@@ -1,0 +1,48 @@
+/*全ページ共通タイトル部分*/
+.main {
+  background-color: #e4e4e4;
+  margin: 60px 6vw;
+  padding: 60px 6vw;
+}
+
+.title_main {
+  color: black;
+  font-size: 48px;
+  margin: 12px 0;
+}
+.title_sub {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+/*全ページ共通タイトル部分　ここまで*/
+
+
+.main_content {
+  color: #555555;
+  font-size: 20px;
+  line-height: 30px;
+  width: 90%;
+  padding: 60px 6vw;
+}
+
+.news_headline_eyecacth
+
+.news_headline_category
+
+.news_headline_tag
+
+
+.news_headline_date {
+  font-size: 24px;
+  line-height:40px;
+}
+.news_headline_txt {
+  font-size: 30px;
+  line-height:60px;
+}
+.news_border {
+  height: 1px ;
+  background-color: #999999;
+  margin:60px auto;
+}

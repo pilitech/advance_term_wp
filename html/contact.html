@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+</head>
+
+<body>
+  <!--全ページ共通タイトル部分-->
+
+  <div class="main">
+    <h1 class="title_main">CONTACT</h1>
+    <p class="title_sub">お問い合わせ</p>
+    <!--全ページ共通タイトル部分　ここまで-->
+    <div class="main_content">
+      <h2 class="form_guidance">フォームからのお問い合わせ</h2>
+      <p class="form_guidance_sub">記入内容の確認後、2~3営業日以内にご連絡させていただきます。</p>
+
+      <form class="form" name="contact" method="POST">
+        <hr class="form_border">
+
+
+        <div class="form-item">
+          <p class="form-item-label">氏名</p>
+          <input type="text" name="name" placeholder="例）山田　太郎" class="form-item-input">
+        </div>
+        <div class="form-item">
+          <p class="form-item-label">フリガナ</p>
+          <input type="text" name="kana-name" inputmode="kana-name" pattern="(?=.*?[\u30A1-\u30FC])[\u30A1-\u30FC\s]*" title="全角カナで記入してください。" placeholder="例）ヤマダ　タロウ" class="form-item-input">
+        </div>
+        <div class="form-item">
+          <p class="form-item-label">メールアドレス</p>
+          <input type="email" name="email" placeholder="例）abc@example.com" class="form-item-input">
+        </div>
+        <div class="form-item">
+          <p class="form-item-label">郵便番号</p>
+          <input type="numeric" name="post" pattern="\d{3}-\d{4}" title="郵便番号は、3桁の数字、ハイフン（-）、4桁の数字の順で記入してください。" placeholder="例）000-0000" class="form-item-input">
+        </div>
+        <div class="form-item">
+          <p class="form-item-label">住所</p>
+          <input type="text" name="address" placeholder="例）東京都港区" class="form-item-input">
+        </div>
+        <div class="form-item">
+          <p class="form-item-label">問い合わせ内容</p>
+          <div class="form-item-label-content">
+            <input type="radio" name="content-select" value="mid-career" class="form-item-radio">
+            　中途採用に関して<br>
+            <input type="radio" name="content-select" value="new-career" class="form-item-radio">
+            　新卒採用に関して<br>
+            <input type="radio" name="content-select" value="other" class="form-item-radio" checked>
+            　その他のお問い合わせ<br>
+            <br>
+            <textarea name="content" class="form-item-textarea"></textarea>
+          </div>
+        </div>
+        <hr class="form_border">
+        <input type="submit" class="form-btn" value="入力内容を確認する">
+      </form>
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>

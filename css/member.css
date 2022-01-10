@@ -1,0 +1,51 @@
+/*全ページ共通タイトル部分*/
+.main {
+  background-color: #e4e4e4;
+  margin: 60px 6vw;
+  padding: 60px 6vw;
+}
+
+.title_main {
+  color: black;
+  font-size: 48px;
+  margin: 12px 0;
+}
+.title_sub {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+/*全ページ共通タイトル部分　ここまで*/
+
+.main_content {
+  padding: 60px 6vw;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+}
+table th,
+table td {
+  color: #555555;
+  border: 1px solid #999999;
+  border-right: none;
+  border-left: none;
+  padding: 30px;
+  text-align: left;
+}
+table th {
+  width: 40%;
+  font-size: 20px;
+  font-weight: bold;
+}
+table td {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.name_main {
+  font-size: 20px;
+  line-height: 28px;
+}
